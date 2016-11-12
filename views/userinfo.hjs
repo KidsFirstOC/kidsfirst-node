@@ -13,12 +13,10 @@
   <!-- Carousel
    ================================================== -->
    <div class="container">
-     <h2>Particpants</h2>
-     <ul>
+     <h2>Particpant's Info</h2>
       {{#participant}}
-        <li><a style="color:black;" href="/participant/{{id}}">{{name}}</a></li>
+        Name: {{name}} </br>Age: {{age}}
       {{/participant}}
-     </ul>
   </div>
    </div>
 

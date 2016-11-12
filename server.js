@@ -69,6 +69,17 @@ app
       })
     }, next)
   })
+  .get("/participant/:user_ID",(req,res, next) => {
+    const user_ID = req.params.user_ID;
+    db("participant")
+    .where("id",user_ID)
+    .then((participant) => {
+      res.render("userinfo", {
+        participant,
+        partials: {head: "head", header: "header", footer: "footer"}
+      })
+    }, next)
+  })
   .use(function(req, res, next){
     res.status(404)
     .render('error', {
