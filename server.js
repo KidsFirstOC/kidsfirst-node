@@ -60,10 +60,13 @@ app
       partials: {head: "head", header: "header", footer: "footer"}
     })
   })
-  .get("/test",(req,res, next) => {
+  .get("/participant",(req,res, next) => {
     console.log("refreshed");
     db("participant").then((participant) => {
-      res.send(participant)
+      res.render("participant", {
+        participant,
+        partials: {head: "head", header: "header", footer: "footer"}
+      })
     }, next)
   })
   .use(function(req, res, next){
