@@ -1,0 +1,245 @@
+* {
+  font-family: 'Raleway';
+}
+
+.jumbotron {
+  margin-bottom: 0 !important;
+  position: relative;
+  padding-top: 0px;
+  margin-top: 0 !important;
+  padding-bottom: 0px !important;
+}
+.navbar,.footer,.navbar-brand {
+  color: white !important;
+}
+.navbar {
+  margin-bottom: 0;
+  margin-top: 0px !important;
+  background-color: #006489;
+}
+
+
+
+.top-logo {
+  margin-left: 15px;
+  padding: 15px 15px;
+}
+
+.logo {
+  font-family: 'Indie Flower';
+  font-size: 3.2em;
+  padding-bottom: 0 !important;
+  margin-bottom: 0px;
+}
+.desc {
+  margin-top: -10px;
+  margin-bottom: 10px;
+}
+.item  img {
+    display: block;
+    margin: 0 auto;
+    max-height: 527px;
+}
+
+.right {
+  float: right;
+}
+
+
+
+#courses {
+  paddng-top: 30px;
+}
+
+#header {
+    position: relative;
+}
+
+#logo {
+    position: absolute;
+    bottom: 0;
+    height: 200px;
+}
+
+#callUs{
+  color: #006489;
+  font-weight: bold;
+}
+
+#donateJumbo {
+  background-image: url("./img/donate2.jpg");
+  height: 350px;
+  background-size: cover;
+  background-position: center;
+}
+
+#contactJumbo {
+  background-image: url("./img/contact.jpg");
+  height: 350px;
+  background-size: cover;
+  background-position: center;
+}
+
+hr.small {
+  width: 25%;
+  border-top: 1px solid #006489;
+}
+.jumbotext { /*poisitions text in jumbotron in the menu page */
+  position: absolute;
+  /*z-index: 10;*/
+  margin-top: -250px;
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 1px 2px rgba(0,0,0,.7);
+  background-color: rgba(0,0,0,.3);
+  left: 20%;
+  right: 20%;
+}
+
+.jumbotext h1,h2 {
+  padding-top: -15px;
+}
+
+.jumbotext hr{
+  width: 25%;
+}
+
+.contactIcon {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.contactIcon img{
+  min-height: 150px;
+  min-width: 150px;
+  max-height: 150px;
+  max-width: 150px;
+}
+
+#map {
+  height:400px;
+  margin-bottom: 1.4em;
+}
+#donate {
+  text-align: center;
+}
+
+#donateForm {
+    padding: 1.2em;
+}
+
+#donateForm p{
+  padding-top: 1.2em;
+}
+
+.center {
+  text-align: center;
+
+}
+
+
+.navbar-toggle {
+  background-color: rgb(274,174,114)!important;
+}
+
+.hide {
+  display: none;
+}
+
+.fixed {
+  position: fixed;
+  top: 0;
+}
+
+.opaque {
+    background-color: rgba(0,100,137,.4);
+}
+
+nav {
+  z-index: 10;
+  width: 100%;
+}
+.icon-bar {
+  background-color: black;
+}
+
+.selectable, .selected {
+    background-color: #f2f2f2 !important;
+    display: all !important;
+}
+
+.even {
+  background-color: #f2f2f2;
+  height: width: 100vh;
+}
+
+.featurette-divider {
+  margin-bottom: 0px;
+  margin-top: 0px;
+  padding-top: -30px;
+}
+
+.faqTitle {
+  font-weight: bold;
+}
+
+.container.faq {
+  border-bottom: .1em solid #006489;
+  background-color: #e6e6e6;
+}
+
+.faq p{
+  margin-left: 5em;
+}
+
+.faq li{
+  margin-left: 3.5em;
+}
+
+.faqDesc {
+    font-size: 1.1em;
+}
+
+.item img { /*centers image in carousel */
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    max-height: 527px;
+}
+#courses,#testimonials {
+  padding-top: 1.4em;
+  padding-bottom: 1.4em;
+}
+
+#contactButton {
+  width: 30%;
+}
+
+#footer {
+  margin-top: 15px !important;
+}
+
+.footer {
+   background-color: #006489;
+   padding: 1.4em;
+   color: white;
+   margin-top: 1.2em;
+}
+.footer ul {
+  margin-right: 5px;
+}
+li a {
+  color: white;
+}
+.contactIcon p{
+  margin-bottom: 1.2em;
+  padding-top: .4em;
+}
+@media only screen and (max-width: 900px) {
+	#contact {
+	   text-align: center;
+	}
+  #logo {
+    display: none;
+  }
+}
